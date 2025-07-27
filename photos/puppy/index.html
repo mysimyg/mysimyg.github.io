@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amelia's Puppy Days - Photo Gallery</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .gallery-header {
+            text-align: center;
+            padding: 120px 0 60px;
+            background: linear-gradient(135deg, #F8F6F3 0%, #F0EDE8 100%);
+        }
+        
+        .gallery-header h1 {
+            color: #8B7355;
+            margin-bottom: 1rem;
+        }
+        
+        .gallery-header p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 2rem;
+            color: #8B7355;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        
+        .back-link:hover {
+            color: #7A6344;
+        }
+        
+        .photo-grid-large {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            padding: 60px 0;
+        }
+        
+        .photo-item-large {
+            background: #F8F6F3;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        
+        .photo-item-large:hover {
+            transform: translateY(-5px);
+        }
+        
+        .photo-placeholder-large {
+            width: 100%;
+            height: 300px;
+            background: #F5F5F5;
+            border: 2px dashed #DDD;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #999;
+        }
+        
+        .photo-caption {
+            padding: 1.5rem;
+            text-align: center;
+        }
+        
+        .photo-caption h3 {
+            color: #8B7355;
+            margin-bottom: 0.5rem;
+        }
+        
+        .photo-caption p {
+            color: #666;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>Amelia</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="../../#home">Home</a></li>
+                    <li><a href="../../#photos">Photos</a></li>
+                    <li><a href="../../#story">Her Story</a></li>
+                    <li><a href="../../#memories">Memories</a></li>
+                    <li><a href="../../#gallery">Gallery</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Gallery Header -->
+    <section class="gallery-header">
+        <div class="container">
+            <h1>Puppy Days</h1>
+            <p>Amelia's adorable early years - full of curiosity, playfulness, and endless love</p>
+            <a href="../../" class="back-link">← Back to Home</a>
+        </div>
+    </section>
+
+    <!-- Photo Grid -->
+    <section class="container">
+        <div class="photo-grid-large">
+            <div class="photo-item-large">
+                <div class="photo-placeholder-large">
+                    <i class="fas fa-image"></i>
+                    <p>Add puppy photo 1</p>
+                </div>
+                <div class="photo-caption">
+                    <h3>First Day Home</h3>
+                    <p>The day we brought Amelia home - so tiny and full of wonder</p>
+                </div>
+            </div>
+            
+            <div class="photo-item-large">
+                <div class="photo-placeholder-large">
+                    <i class="fas fa-image"></i>
+                    <p>Add puppy photo 2</p>
+                </div>
+                <div class="photo-caption">
+                    <h3>Learning to Walk</h3>
+                    <p>Those wobbly first steps and endless energy</p>
+                </div>
+            </div>
+            
+            <div class="photo-item-large">
+                <div class="photo-placeholder-large">
+                    <i class="fas fa-image"></i>
+                    <p>Add puppy photo 3</p>
+                </div>
+                <div class="photo-caption">
+                    <h3>Playtime</h3>
+                    <p>Chasing toys and discovering the world around her</p>
+                </div>
+            </div>
+            
+            <div class="photo-item-large">
+                <div class="photo-placeholder-large">
+                    <i class="fas fa-image"></i>
+                    <p>Add puppy photo 4</p>
+                </div>
+                <div class="photo-caption">
+                    <h3>Sleepy Moments</h3>
+                    <p>Those precious naps after a day of exploring</p>
+                </div>
+            </div>
+            
+            <div class="photo-item-large">
+                <div class="photo-placeholder-large">
+                    <i class="fas fa-image"></i>
+                    <p>Add puppy photo 5</p>
+                </div>
+                <div class="photo-caption">
+                    <h3>Growing Up</h3>
+                    <p>Watching her personality develop day by day</p>
+                </div>
+            </div>
+            
+            <div class="photo-item-large">
+                <div class="photo-placeholder-large">
+                    <i class="fas fa-image"></i>
+                    <p>Add puppy photo 6</p>
+                </div>
+                <div class="photo-caption">
+                    <h3>First Friends</h3>
+                    <p>Meeting other dogs and learning to socialize</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Amelia</h3>
+                    <p>Forever loved, forever remembered</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="../../#home">Home</a></li>
+                        <li><a href="../../#photos">Photos</a></li>
+                        <li><a href="../../#story">Her Story</a></li>
+                        <li><a href="../../#memories">Memories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Photo Collections</h4>
+                    <ul>
+                        <li><a href="../puppy/">Puppy Days</a></li>
+                        <li><a href="../adventures/">Adventures</a></li>
+                        <li><a href="../family/">Family Time</a></li>
+                        <li><a href="../senior/">Senior Years</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 In Memory of Amelia. Created with love and remembrance.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../script.js"></script>
+</body>
+</html> 

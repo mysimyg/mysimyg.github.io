@@ -1,7 +1,238 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amelia - The Biggest Girl</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>Amelia</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#photos">Photos</a></li>
+                    <li><a href="#story">Her Story</a></li>
+                    <li><a href="#memories">Memories</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Amelia</h1>
+            <p class="hero-subtitle">The biggest, the best, the most loving and the most loved
+            </p>
+            <p class="hero-date">2013 - 2024</p>
+            <a href="#photos" class="cta-button">View Her Photos</a>
+        </div>
+        <div class="hero-image">
+            <div class="placeholder-image">
+                <i class="photos/adventures/backyard1.jpg"></i>
+                <p><img>/photos/adventures/back yard1.jpg</img></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Photos Section -->
+    <section id="photos" class="featured-photos">
+        <div class="container">
+            <h2>Remembering Amelia</h2>
+            <p class="section-subtitle">A collection of precious moments and memories</p>
+            
+            <div class="photo-grid">
+                <div class="photo-item">
+                    <div class="photo-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Photo 1</p>
+                    </div>
+                </div>
+                <div class="photo-item">
+                    <div class="photo-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Photo 2</p>
+                    </div>
+                </div>
+                <div class="photo-item">
+                    <div class="photo-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Photo 3</p>
+                    </div>
+                </div>
+                <div class="photo-item">
+                    <div class="photo-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Photo 4</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-all">
+                <a href="photos/" class="secondary-button">View All Photos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Her Story Section -->
+    <section id="story" class="story-section">
+        <div class="container">
+            <div class="story-content">
+                <h2>Amelia's Story</h2>
+                <p class="story-text">
+                    Amelia was more than just a pet - she was family. Her gentle spirit, unwavering loyalty, 
+                    and endless love touched everyone who had the privilege of knowing her. From her playful 
+                    puppy days to her wise senior years, Amelia brought joy and comfort to our lives every day.
+                </p>
+                <p class="story-text">
+                    She had a special way of understanding our emotions, always ready with a comforting nuzzle 
+                    or an excited tail wag. Her favorite activities included long walks in the park, chasing 
+                    tennis balls, and cuddling on the couch during movie nights.
+                </p>
+                <a href="story/" class="text-link">Read More About Amelia's Life →</a>
+            </div>
+            <div class="story-image">
+                <div class="placeholder-image">
+                    <i class="fas fa-paw"></i>
+                    <p>Add a special photo here</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Memories Section -->
+    <section id="memories" class="memories-section">
+        <div class="container">
+            <h2>Special Memories</h2>
+            <p class="section-subtitle">Moments we'll cherish forever</p>
+            
+            <div class="memories-grid">
+                <div class="memory-card">
+                    <div class="memory-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Her First Day Home</h3>
+                    <p>The day Amelia joined our family, bringing endless love and laughter into our lives.</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>Adventure Buddy</h3>
+                    <p>Every hike, every walk, every outdoor adventure was made better with Amelia by our side.</p>
+                </div>
+                <div class="memory-card">
+                    <div class="memory-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Unconditional Love</h3>
+                    <p>Through good times and bad, Amelia's love was constant and unwavering.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2>Photo Gallery</h2>
+            <p class="section-subtitle">A lifetime of beautiful moments</p>
+            
+            <div class="gallery-nav">
+                <a href="photos/puppy/" class="gallery-link">Puppy Days</a>
+                <a href="photos/adventures/" class="gallery-link">Adventures</a>
+                <a href="photos/family/" class="gallery-link">Family Time</a>
+                <a href="photos/senior/" class="gallery-link">Senior Years</a>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="photo-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Gallery Photo 1</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="photo-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Gallery Photo 2</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="photo-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Gallery Photo 3</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="photo-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Gallery Photo 4</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="photo-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Gallery Photo 5</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="photo-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Gallery Photo 6</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Amelia</h3>
+                    <p>Forever loved, forever remembered</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#photos">Photos</a></li>
+                        <li><a href="#story">Her Story</a></li>
+                        <li><a href="#memories">Memories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Photo Collections</h4>
+                    <ul>
+                        <li><a href="photos/puppy/">Puppy Days</a></li>
+                        <li><a href="photos/adventures/">Adventures</a></li>
+                        <li><a href="photos/family/">Family Time</a></li>
+                        <li><a href="photos/senior/">Senior Years</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 In Memory of Amelia. Created with love and remembrance.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
